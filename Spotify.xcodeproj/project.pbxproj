@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B23F02F1E88FC7800D367F0 /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23F02E1E88FC7800D367F0 /* AudioVC.swift */; };
 		1BC15FBD1E82661700B42A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC15FBC1E82661700B42A3E /* AppDelegate.swift */; };
 		1BC15FBF1E82661700B42A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC15FBE1E82661700B42A3E /* ViewController.swift */; };
 		1BC15FC21E82661700B42A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC15FC01E82661700B42A3E /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B23F02E1E88FC7800D367F0 /* AudioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
 		1BC15FB91E82661700B42A3E /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC15FBC1E82661700B42A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BC15FBE1E82661700B42A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				1BC15FBC1E82661700B42A3E /* AppDelegate.swift */,
 				1BC15FBE1E82661700B42A3E /* ViewController.swift */,
 				1BC15FC01E82661700B42A3E /* Main.storyboard */,
+				1B23F02E1E88FC7800D367F0 /* AudioVC.swift */,
 				1BC15FC31E82661700B42A3E /* Assets.xcassets */,
 				1BC15FC51E82661700B42A3E /* LaunchScreen.storyboard */,
 				1BC15FC81E82661700B42A3E /* Info.plist */,
@@ -447,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC15FBF1E82661700B42A3E /* ViewController.swift in Sources */,
+				1B23F02F1E88FC7800D367F0 /* AudioVC.swift in Sources */,
 				1BC15FBD1E82661700B42A3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,6 +700,7 @@
 				1BC15FE31E82661700B42A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BC15FE41E82661700B42A3E /* Build configuration list for PBXNativeTarget "SpotifyTests" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +709,7 @@
 				1BC15FE61E82661700B42A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BC15FE71E82661700B42A3E /* Build configuration list for PBXNativeTarget "SpotifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +718,7 @@
 				1BC15FE91E82661700B42A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
